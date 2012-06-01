@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		762054521481FFAD00316B35 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 7620544E1481FFAD00316B35 /* Icon-72.png */; };
+		762054531481FFAD00316B35 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7620544F1481FFAD00316B35 /* Icon.png */; };
+		762054541481FFAD00316B35 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 762054501481FFAD00316B35 /* Icon@2x.png */; };
+		762054551481FFAD00316B35 /* IconOriginal.png in Resources */ = {isa = PBXBuildFile; fileRef = 762054511481FFAD00316B35 /* IconOriginal.png */; };
+		762054571482012700316B35 /* photo3.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 762054561482012700316B35 /* photo3.PNG */; };
+		7620545E1482C40B00316B35 /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7620545D1482C40B00316B35 /* SoundManager.m */; };
+		7633C552148495DB00E55A71 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7633C551148495DB00E55A71 /* CoreAudio.framework */; };
+		7633C555148495E200E55A71 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7633C554148495E200E55A71 /* AudioToolbox.framework */; };
+		7633C557148496DE00E55A71 /* welcome.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7633C556148496DE00E55A71 /* welcome.wav */; };
+		7697375214800BAB00838CD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7697375114800BAB00838CD3 /* UIKit.framework */; };
+		7697375414800BAB00838CD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7697375314800BAB00838CD3 /* Foundation.framework */; };
+		7697375614800BAB00838CD3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7697375514800BAB00838CD3 /* CoreGraphics.framework */; };
+		7697375C14800BAB00838CD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7697375A14800BAB00838CD3 /* InfoPlist.strings */; };
+		7697375E14800BAB00838CD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7697375D14800BAB00838CD3 /* main.m */; };
+		7697376214800BAB00838CD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7697376114800BAB00838CD3 /* AppDelegate.m */; };
+		7697376514800BAB00838CD3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7697376414800BAB00838CD3 /* ViewController.m */; };
+		7697376814800BAB00838CD3 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7697376614800BAB00838CD3 /* ViewController_iPhone.xib */; };
+		7697376B14800BAB00838CD3 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7697376914800BAB00838CD3 /* ViewController_iPad.xib */; };
+		7697377D14800C2100838CD3 /* GMGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7697377314800C2100838CD3 /* GMGridView.m */; };
+		7697377E14800C2100838CD3 /* GMGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7697377514800C2100838CD3 /* GMGridViewCell.m */; };
+		7697377F14800C2100838CD3 /* GMGridViewLayoutStrategies.m in Sources */ = {isa = PBXBuildFile; fileRef = 7697377814800C2100838CD3 /* GMGridViewLayoutStrategies.m */; };
+		7697378014800C2100838CD3 /* UIGestureRecognizer+GMGridViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7697377A14800C2100838CD3 /* UIGestureRecognizer+GMGridViewAdditions.m */; };
+		7697378114800C2100838CD3 /* UIView+GMGridViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7697377C14800C2100838CD3 /* UIView+GMGridViewAdditions.m */; };
+		7697378514800D3900838CD3 /* GameMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7697378314800D3900838CD3 /* GameMainController.m */; };
+		7697378614800D3900838CD3 /* iPadGameMainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7697378414800D3900838CD3 /* iPadGameMainController.xib */; };
+		7697378814800D6A00838CD3 /* iPhoneGameMainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7697378714800D6A00838CD3 /* iPhoneGameMainController.xib */; };
+		7697378A14803D9A00838CD3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7697378914803D9A00838CD3 /* QuartzCore.framework */; };
+		7697378D148056DE00838CD3 /* wordList.m in Sources */ = {isa = PBXBuildFile; fileRef = 7697378C148056DE00838CD3 /* wordList.m */; };
+		76973790148059AE00838CD3 /* ItemForCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7697378F148059AE00838CD3 /* ItemForCell.m */; };
+		7697379714808C3A00838CD3 /* RandomGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7697379614808C3A00838CD3 /* RandomGenerator.m */; };
+		7697379B1480B13A00838CD3 /* WonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 769737991480B13900838CD3 /* WonViewController.m */; };
+		7697379C1480B13A00838CD3 /* WonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7697379A1480B13A00838CD3 /* WonViewController.xib */; };
+		76BAE5C61484A17A00953C39 /* yes.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76BAE5C51484A17A00953C39 /* yes.wav */; };
+		76BAE5C81484A1EF00953C39 /* won.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76BAE5C71484A1EF00953C39 /* won.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7620544E1481FFAD00316B35 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Resources/Icon-72.png"; sourceTree = "<group>"; };
+		7620544F1481FFAD00316B35 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
+		762054501481FFAD00316B35 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Icon@2x.png"; sourceTree = "<group>"; };
+		762054511481FFAD00316B35 /* IconOriginal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IconOriginal.png; path = Resources/IconOriginal.png; sourceTree = "<group>"; };
+		762054561482012700316B35 /* photo3.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = photo3.PNG; path = Resources/ScreenShots/photo3.PNG; sourceTree = "<group>"; };
+		7620545C1482C40B00316B35 /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
+		7620545D1482C40B00316B35 /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
+		7633C551148495DB00E55A71 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		7633C554148495E200E55A71 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7633C556148496DE00E55A71 /* welcome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = welcome.wav; path = Resources/welcome.wav; sourceTree = "<group>"; };
+		7697374D14800BAB00838CD3 /* CountGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7697375114800BAB00838CD3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7697375314800BAB00838CD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7697375514800BAB00838CD3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7697375914800BAB00838CD3 /* CountGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CountGame-Info.plist"; sourceTree = "<group>"; };
+		7697375B14800BAB00838CD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7697375D14800BAB00838CD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7697375F14800BAB00838CD3 /* CountGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CountGame-Prefix.pch"; sourceTree = "<group>"; };
+		7697376014800BAB00838CD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7697376114800BAB00838CD3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7697376314800BAB00838CD3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7697376414800BAB00838CD3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7697376714800BAB00838CD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		7697376A14800BAB00838CD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		7697377214800C2100838CD3 /* GMGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMGridView.h; path = API/GMGridView.h; sourceTree = "<group>"; };
+		7697377314800C2100838CD3 /* GMGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMGridView.m; path = API/GMGridView.m; sourceTree = "<group>"; };
+		7697377414800C2100838CD3 /* GMGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMGridViewCell.h; path = API/GMGridViewCell.h; sourceTree = "<group>"; };
+		7697377514800C2100838CD3 /* GMGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMGridViewCell.m; path = API/GMGridViewCell.m; sourceTree = "<group>"; };
+		7697377614800C2100838CD3 /* GMGridViewCell+Extended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GMGridViewCell+Extended.h"; path = "API/GMGridViewCell+Extended.h"; sourceTree = "<group>"; };
+		7697377714800C2100838CD3 /* GMGridViewLayoutStrategies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMGridViewLayoutStrategies.h; path = API/GMGridViewLayoutStrategies.h; sourceTree = "<group>"; };
+		7697377814800C2100838CD3 /* GMGridViewLayoutStrategies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMGridViewLayoutStrategies.m; path = API/GMGridViewLayoutStrategies.m; sourceTree = "<group>"; };
+		7697377914800C2100838CD3 /* UIGestureRecognizer+GMGridViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+GMGridViewAdditions.h"; path = "API/UIGestureRecognizer+GMGridViewAdditions.h"; sourceTree = "<group>"; };
+		7697377A14800C2100838CD3 /* UIGestureRecognizer+GMGridViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+GMGridViewAdditions.m"; path = "API/UIGestureRecognizer+GMGridViewAdditions.m"; sourceTree = "<group>"; };
+		7697377B14800C2100838CD3 /* UIView+GMGridViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+GMGridViewAdditions.h"; path = "API/UIView+GMGridViewAdditions.h"; sourceTree = "<group>"; };
+		7697377C14800C2100838CD3 /* UIView+GMGridViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+GMGridViewAdditions.m"; path = "API/UIView+GMGridViewAdditions.m"; sourceTree = "<group>"; };
+		7697378214800D3900838CD3 /* GameMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMainController.h; sourceTree = "<group>"; };
+		7697378314800D3900838CD3 /* GameMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMainController.m; sourceTree = "<group>"; };
+		7697378414800D3900838CD3 /* iPadGameMainController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPadGameMainController.xib; sourceTree = "<group>"; };
+		7697378714800D6A00838CD3 /* iPhoneGameMainController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPhoneGameMainController.xib; sourceTree = "<group>"; };
+		7697378914803D9A00838CD3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7697378B148056DE00838CD3 /* wordList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordList.h; sourceTree = "<group>"; };
+		7697378C148056DE00838CD3 /* wordList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wordList.m; sourceTree = "<group>"; };
+		7697378E148059AE00838CD3 /* ItemForCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemForCell.h; sourceTree = "<group>"; };
+		7697378F148059AE00838CD3 /* ItemForCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemForCell.m; sourceTree = "<group>"; };
+		7697379514808C3A00838CD3 /* RandomGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomGenerator.h; sourceTree = "<group>"; };
+		7697379614808C3A00838CD3 /* RandomGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomGenerator.m; sourceTree = "<group>"; };
+		769737981480B13900838CD3 /* WonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WonViewController.h; sourceTree = "<group>"; };
+		769737991480B13900838CD3 /* WonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WonViewController.m; sourceTree = "<group>"; };
+		7697379A1480B13A00838CD3 /* WonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WonViewController.xib; sourceTree = "<group>"; };
+		7697379D1480B16C00838CD3 /* GameProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameProtocol.h; sourceTree = "<group>"; };
+		76BAE5C51484A17A00953C39 /* yes.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = yes.wav; path = Resources/yes.wav; sourceTree = "<group>"; };
+		76BAE5C71484A1EF00953C39 /* won.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = won.wav; path = Resources/won.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7697374A14800BAB00838CD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7633C555148495E200E55A71 /* AudioToolbox.framework in Frameworks */,
+				7633C552148495DB00E55A71 /* CoreAudio.framework in Frameworks */,
+				7697378A14803D9A00838CD3 /* QuartzCore.framework in Frameworks */,
+				7697375214800BAB00838CD3 /* UIKit.framework in Frameworks */,
+				7697375414800BAB00838CD3 /* Foundation.framework in Frameworks */,
+				7697375614800BAB00838CD3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7620544C1481FF9900316B35 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				76BAE5C71484A1EF00953C39 /* won.wav */,
+				76BAE5C51484A17A00953C39 /* yes.wav */,
+				7633C556148496DE00E55A71 /* welcome.wav */,
+				762054561482012700316B35 /* photo3.PNG */,
+				7620544E1481FFAD00316B35 /* Icon-72.png */,
+				7620544F1481FFAD00316B35 /* Icon.png */,
+				762054501481FFAD00316B35 /* Icon@2x.png */,
+				762054511481FFAD00316B35 /* IconOriginal.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7697374214800BAB00838CD3 = {
+			isa = PBXGroup;
+			children = (
+				7633C554148495E200E55A71 /* AudioToolbox.framework */,
+				7633C551148495DB00E55A71 /* CoreAudio.framework */,
+				7697378914803D9A00838CD3 /* QuartzCore.framework */,
+				7697375714800BAB00838CD3 /* CountGame */,
+				7697375014800BAB00838CD3 /* Frameworks */,
+				7697374E14800BAB00838CD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7697374E14800BAB00838CD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7697374D14800BAB00838CD3 /* CountGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7697375014800BAB00838CD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7697375114800BAB00838CD3 /* UIKit.framework */,
+				7697375314800BAB00838CD3 /* Foundation.framework */,
+				7697375514800BAB00838CD3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7697375714800BAB00838CD3 /* CountGame */ = {
+			isa = PBXGroup;
+			children = (
+				7620545C1482C40B00316B35 /* SoundManager.h */,
+				7620545D1482C40B00316B35 /* SoundManager.m */,
+				7620544C1481FF9900316B35 /* Resources */,
+				7697379D1480B16C00838CD3 /* GameProtocol.h */,
+				769737981480B13900838CD3 /* WonViewController.h */,
+				769737991480B13900838CD3 /* WonViewController.m */,
+				7697379A1480B13A00838CD3 /* WonViewController.xib */,
+				7697379514808C3A00838CD3 /* RandomGenerator.h */,
+				7697379614808C3A00838CD3 /* RandomGenerator.m */,
+				7697378B148056DE00838CD3 /* wordList.h */,
+				7697378C148056DE00838CD3 /* wordList.m */,
+				7697377114800C0800838CD3 /* API */,
+				7697376014800BAB00838CD3 /* AppDelegate.h */,
+				7697376114800BAB00838CD3 /* AppDelegate.m */,
+				7697376314800BAB00838CD3 /* ViewController.h */,
+				7697376414800BAB00838CD3 /* ViewController.m */,
+				7697376614800BAB00838CD3 /* ViewController_iPhone.xib */,
+				7697376914800BAB00838CD3 /* ViewController_iPad.xib */,
+				7697375814800BAB00838CD3 /* Supporting Files */,
+				7697378214800D3900838CD3 /* GameMainController.h */,
+				7697378314800D3900838CD3 /* GameMainController.m */,
+				7697378414800D3900838CD3 /* iPadGameMainController.xib */,
+				7697378714800D6A00838CD3 /* iPhoneGameMainController.xib */,
+				7697378E148059AE00838CD3 /* ItemForCell.h */,
+				7697378F148059AE00838CD3 /* ItemForCell.m */,
+			);
+			path = CountGame;
+			sourceTree = "<group>";
+		};
+		7697375814800BAB00838CD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7697375914800BAB00838CD3 /* CountGame-Info.plist */,
+				7697375A14800BAB00838CD3 /* InfoPlist.strings */,
+				7697375D14800BAB00838CD3 /* main.m */,
+				7697375F14800BAB00838CD3 /* CountGame-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7697377114800C0800838CD3 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				7697377214800C2100838CD3 /* GMGridView.h */,
+				7697377314800C2100838CD3 /* GMGridView.m */,
+				7697377414800C2100838CD3 /* GMGridViewCell.h */,
+				7697377514800C2100838CD3 /* GMGridViewCell.m */,
+				7697377614800C2100838CD3 /* GMGridViewCell+Extended.h */,
+				7697377714800C2100838CD3 /* GMGridViewLayoutStrategies.h */,
+				7697377814800C2100838CD3 /* GMGridViewLayoutStrategies.m */,
+				7697377914800C2100838CD3 /* UIGestureRecognizer+GMGridViewAdditions.h */,
+				7697377A14800C2100838CD3 /* UIGestureRecognizer+GMGridViewAdditions.m */,
+				7697377B14800C2100838CD3 /* UIView+GMGridViewAdditions.h */,
+				7697377C14800C2100838CD3 /* UIView+GMGridViewAdditions.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7697374C14800BAB00838CD3 /* CountGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7697376E14800BAB00838CD3 /* Build configuration list for PBXNativeTarget "CountGame" */;
+			buildPhases = (
+				7697374914800BAB00838CD3 /* Sources */,
+				7697374A14800BAB00838CD3 /* Frameworks */,
+				7697374B14800BAB00838CD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CountGame;
+			productName = CountGame;
+			productReference = 7697374D14800BAB00838CD3 /* CountGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7697374414800BAB00838CD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 7697374714800BAB00838CD3 /* Build configuration list for PBXProject "CountGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7697374214800BAB00838CD3;
+			productRefGroup = 7697374E14800BAB00838CD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7697374C14800BAB00838CD3 /* CountGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7697374B14800BAB00838CD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7697375C14800BAB00838CD3 /* InfoPlist.strings in Resources */,
+				7697376814800BAB00838CD3 /* ViewController_iPhone.xib in Resources */,
+				7697376B14800BAB00838CD3 /* ViewController_iPad.xib in Resources */,
+				7697378614800D3900838CD3 /* iPadGameMainController.xib in Resources */,
+				7697378814800D6A00838CD3 /* iPhoneGameMainController.xib in Resources */,
+				7697379C1480B13A00838CD3 /* WonViewController.xib in Resources */,
+				762054521481FFAD00316B35 /* Icon-72.png in Resources */,
+				762054531481FFAD00316B35 /* Icon.png in Resources */,
+				762054541481FFAD00316B35 /* Icon@2x.png in Resources */,
+				762054551481FFAD00316B35 /* IconOriginal.png in Resources */,
+				762054571482012700316B35 /* photo3.PNG in Resources */,
+				7633C557148496DE00E55A71 /* welcome.wav in Resources */,
+				76BAE5C61484A17A00953C39 /* yes.wav in Resources */,
+				76BAE5C81484A1EF00953C39 /* won.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7697374914800BAB00838CD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7697375E14800BAB00838CD3 /* main.m in Sources */,
+				7697376214800BAB00838CD3 /* AppDelegate.m in Sources */,
+				7697376514800BAB00838CD3 /* ViewController.m in Sources */,
+				7697377D14800C2100838CD3 /* GMGridView.m in Sources */,
+				7697377E14800C2100838CD3 /* GMGridViewCell.m in Sources */,
+				7697377F14800C2100838CD3 /* GMGridViewLayoutStrategies.m in Sources */,
+				7697378014800C2100838CD3 /* UIGestureRecognizer+GMGridViewAdditions.m in Sources */,
+				7697378114800C2100838CD3 /* UIView+GMGridViewAdditions.m in Sources */,
+				7697378514800D3900838CD3 /* GameMainController.m in Sources */,
+				7697378D148056DE00838CD3 /* wordList.m in Sources */,
+				76973790148059AE00838CD3 /* ItemForCell.m in Sources */,
+				7697379714808C3A00838CD3 /* RandomGenerator.m in Sources */,
+				7697379B1480B13A00838CD3 /* WonViewController.m in Sources */,
+				7620545E1482C40B00316B35 /* SoundManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7697375A14800BAB00838CD3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7697375B14800BAB00838CD3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7697376614800BAB00838CD3 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7697376714800BAB00838CD3 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		7697376914800BAB00838CD3 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7697376A14800BAB00838CD3 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7697376C14800BAB00838CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7697376D14800BAB00838CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7697376F14800BAB00838CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CountGame/CountGame-Prefix.pch";
+				INFOPLIST_FILE = "CountGame/CountGame-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7697377014800BAB00838CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CountGame/CountGame-Prefix.pch";
+				INFOPLIST_FILE = "CountGame/CountGame-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		76BAE5C2148497A800953C39 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		76BAE5C3148497A800953C39 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CountGame/CountGame-Prefix.pch";
+				INFOPLIST_FILE = "CountGame/CountGame-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7697374714800BAB00838CD3 /* Build configuration list for PBXProject "CountGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7697376C14800BAB00838CD3 /* Debug */,
+				7697376D14800BAB00838CD3 /* Release */,
+				76BAE5C2148497A800953C39 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7697376E14800BAB00838CD3 /* Build configuration list for PBXNativeTarget "CountGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7697376F14800BAB00838CD3 /* Debug */,
+				7697377014800BAB00838CD3 /* Release */,
+				76BAE5C3148497A800953C39 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7697374414800BAB00838CD3 /* Project object */;
+}
