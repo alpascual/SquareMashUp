@@ -17,8 +17,8 @@
 	UIImageView *overlay;
 }
 
-@property(nonatomic, retain) NSMutableArray *sndQueue;
-@property(nonatomic, retain) UIImageView *overlay;
+@property(nonatomic, strong) NSMutableArray *sndQueue;
+@property(nonatomic, strong) UIImageView *overlay;
 
 - (void) LoadSound:(NSString*)pathSound:(NSString*)ofType;
 - (void)LoadRandomSound:(NSString*)pathSound:(NSString*)ofType;

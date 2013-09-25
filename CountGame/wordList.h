@@ -18,7 +18,7 @@
 	
 }
 
-@property (nonatomic,retain) NSMutableArray *_last5;
+@property (nonatomic,strong) NSMutableArray *_last5;
 
 - (void) BuildWords;
 - (NSString*) GetRandomWord;
